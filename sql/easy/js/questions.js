@@ -114,7 +114,7 @@ let questions = [
 {
   numb: 11,
   question: " Select the valid SQL type? ",
-  answer: "All of the Above",
+  answer: "All of the above",
   options: [
     "numeric",
     "float",

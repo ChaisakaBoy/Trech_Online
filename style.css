@@ -6,6 +6,16 @@
   font-family: 'Poppins',sans-serif;
   text-decoration: none;
 }
+
+#preloader{
+  position: fixed;
+   width:100%;
+   height:100vh;
+   background: #fff url('images/Trech_preloader_GIF.gif') no-repeat center;
+   z-index: 2;
+   
+}
+
 body{
   font-family: 'Poppins',sans-serif;
 }

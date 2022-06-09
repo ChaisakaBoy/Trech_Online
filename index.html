@@ -18,9 +18,11 @@
 
 </head>
 
-<body>
+<body onload="myFunction()">
   
-  
+  <div id ="preloader">
+
+  </div>
   
   <!-- HEADER FILE  -->
 
@@ -149,6 +151,11 @@
 
 
   <script>
+    var preloader = document.getElementById('preloader');
+    function myFunction(){
+       preloader.style.display ="none";
+    }
+
     function sendMail() {
       var link = "mailto:office@trech.online";
       window.location.href = link;
